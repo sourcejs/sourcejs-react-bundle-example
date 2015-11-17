@@ -31,6 +31,8 @@ To update SourceJS (in case of new installed plugins), run
 npm run build-source
 ```
 
+Note: Windows OS support is not yet implemented, but already in the works.
+
 ### Writing Documentation
 
 Example components are placed into `./specs` folder. Each component has its JSX/CSS sources, `readme.md` documentation with component examples and text description and `info.json` meta file.
