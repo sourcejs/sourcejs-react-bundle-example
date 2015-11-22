@@ -7,13 +7,14 @@
   "description": "Example of pre-configured SourceJS bundle for building React Component Libraries and Style Guides.",
   "scripts": {
     "build-source": "cd ./node_modules/sourcejs && npm run build",
-    "start": "node ./node_modules/sourcejs/app.js"
+    "start": "node ./node_modules/sourcejs/app.js",
+    "postinstall": "node pre-build-production.js"
   },
   "dependencies": {
     "react": "^0.14.2",
     "react-dom": "^0.14.2",
-    "sourcejs": "^0.6.0-nightly.3",
+    "sourcejs": "^0.6.0-nightly.4",
     "sourcejs-react-docgen": "^0.3.0",
-    "sourcejs-react-styleguidist": "^0.3.0"
+    "sourcejs-react-styleguidist": "^0.4.0"
   }
 }
