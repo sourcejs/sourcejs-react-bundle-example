@@ -1,6 +1,6 @@
 # SourceJS React Styleguide Bundle Example
 
-Example of pre-configured SourceJS bundle for building React Component Libraries and Style Guides.
+Example of pre-configured [SourceJS](http://sourcejs.com) bundle for building React Component Libraries and Style Guides.
 
 Based on latest SourceJS 0.6 nightly builds, and a bunch of plugins:
 
@@ -16,7 +16,9 @@ Available features:
 * Advanced navigation support
 * SourceJS ecosystem support
 
-![image](http://d.pr/i/1ij48+)
+[**Live demo**](https://sourcejs-react-bundle.herokuapp.com)
+
+[![image](http://d.pr/i/1ij48+)](https://sourcejs-react-bundle.herokuapp.com/specs/button/)
 
 ## Setup
 
@@ -54,3 +56,9 @@ Simple, but extendable syntax allows automatically building rich component prese
 Renders into
 
 ![image](http://d.pr/i/18Y12+)
+
+---
+
+## License
+
+The MIT License, see the included [license.md](license.md) file.
