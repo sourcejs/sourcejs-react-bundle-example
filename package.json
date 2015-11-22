@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Robert Haritonov",
     "url": "http://rhr.me/"
@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "^0.14.2",
     "react-dom": "^0.14.2",
-    "sourcejs": "^0.6.0-nightly.2",
+    "sourcejs": "^0.6.0-nightly.3",
     "sourcejs-react-docgen": "^0.3.0",
     "sourcejs-react-styleguidist": "^0.3.0"
   }
