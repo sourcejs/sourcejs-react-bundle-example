@@ -16,9 +16,9 @@ Available features:
 * Advanced navigation support
 * SourceJS ecosystem support
 
-[**Live demo**](https://sourcejs-react-bundle.herokuapp.com)
+[**Live demo**](http://162.219.3.106:8080)
 
-[![image](http://d.pr/i/1ij48+)](https://sourcejs-react-bundle.herokuapp.com/specs/button/)
+[![image](http://d.pr/i/1ij48+)](http://162.219.3.106:8080/specs/button/)
 
 ## Setup
 
