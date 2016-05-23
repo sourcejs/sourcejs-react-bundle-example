@@ -6,22 +6,12 @@ import s from './Button.css';
  * The only true button.
  */
 export default class Button extends Component {
-	static propTypes = {
-		/**
-		 * Button label.
-		 */
-		children: PropTypes.string.isRequired,
-		color: PropTypes.string,
-		size: PropTypes.oneOf(['small', 'normal', 'large']),
-	}
-	static defaultProps = {
-		color: '#333',
-		size: 'normal'
-	}
-	static sizes = {
-		small: '10px',
-		normal: '14px',
-		large: '18px'
+	constructor() {
+		this.sizes = {
+			small: '10px',
+			normal: '14px',
+			large: '18px'
+		};
 	}
 
 	onClick() {
@@ -39,3 +29,17 @@ export default class Button extends Component {
 		);
 	}
 }
+
+Button.propTypes = {
+	/**
+	 * Button label.
+	 */
+	children: PropTypes.string.isRequired,
+	color: PropTypes.string,
+	size: PropTypes.oneOf(['small', 'normal', 'large']),
+};
+
+Button.defaultProps = {
+	color: '#333',
+	size: 'normal'
+};
