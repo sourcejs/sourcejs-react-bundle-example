@@ -6,6 +6,10 @@ import s from './Placeholder.css';
  * Image placeholders.
  */
 export default class Placeholder extends Component {
+	constructor(props) {
+		super(props);
+	}
+
 	getImageUrl() {
 		let { type, width, height } = this.props;
 		let types = {

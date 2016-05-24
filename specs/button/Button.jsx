@@ -6,7 +6,9 @@ import s from './Button.css';
  * The only true button.
  */
 export default class Button extends Component {
-	constructor() {
+	constructor(props) {
+		super(props);
+
 		this.sizes = {
 			small: '10px',
 			normal: '14px',
@@ -21,7 +23,7 @@ export default class Button extends Component {
 	render() {
 		let styles = {
 			color: this.props.color,
-			fontSize: Button.sizes[this.props.size]
+			fontSize: this.sizes[this.props.size]
 		};
 
 		return (
