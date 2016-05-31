@@ -6,16 +6,8 @@ import s from './Placeholder.css';
  * Image placeholders.
  */
 export default class Placeholder extends Component {
-	static propTypes = {
-		type: PropTypes.oneOf(['animal', 'bacon', 'beard', 'bear', 'cat', 'food', 'city', 'nature', 'people']),
-		width: PropTypes.number,
-		height: PropTypes.number
-	}
-
-	static defaultProps = {
-		type: 'animal',
-		width: 150,
-		height: 150
+	constructor(props) {
+		super(props);
 	}
 
 	getImageUrl() {
@@ -41,3 +33,15 @@ export default class Placeholder extends Component {
 		);
 	}
 }
+
+Placeholder.propTypes = {
+	type: PropTypes.oneOf(['animal', 'bacon', 'beard', 'bear', 'cat', 'food', 'city', 'nature', 'people']),
+	width: PropTypes.number,
+	height: PropTypes.number
+};
+
+Placeholder.defaultProps = {
+	type: 'animal',
+	width: 150,
+	height: 150
+};
